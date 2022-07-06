@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "minecraft:allay",
     "minecraft:bee",
     "minecraft:blaze",
     "minecraft:cave_spider",
@@ -36,7 +37,9 @@
     "minecraft:spider",
     "minecraft:stray",
     "minecraft:vex",
+    "minecraft:villager",
     "minecraft:vindicator",
+    "minecraft:wandering_trader",
     "minecraft:warden",
     "minecraft:witch",
     "minecraft:wither",
