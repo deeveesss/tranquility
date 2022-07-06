@@ -1,12 +1,13 @@
 # nsv.tranquility
-part of the NotSoVanilla datapack series. 
-this datapack allows players to toggle the hostility of all in game neutral and hostile mobs.
+Part of the NotSoVanilla datapack series. [View on Planet Minecraft](https://www.planetminecraft.com/data-pack/notsovanilla-tranquility-no-hostiles/)
 
-to enable use 
+This datapack allows players to toggle the hostility of all in game neutral and hostile mobs.
+
+To enable use 
 ```mcfunction
 trigger tranquil
 ```
-to disable use
+To disable use
 ```mcfunction
 trigger survival
 ```
