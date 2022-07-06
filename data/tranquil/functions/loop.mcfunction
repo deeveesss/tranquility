@@ -1,9 +1,9 @@
 schedule function tranquil:loop 1s
 
 execute if entity @p[team=pacified] run effect give @a[team=pacified] saturation 2 0 true
-execute if entity @p[team=pacified] run team join pacified @e[type=#tranquil:mobs]
+execute if entity @p[team=pacified] run team join pacified @e[type=#tranquil:mobs,team=!pacified]
 
-execute unless entity @p[team=pacified] run team leave @e[type=#tranquil:mobs]
+execute unless entity @p[team=pacified] run team leave @e[type=#tranquil:mobs,team=pacified]
 
 execute if entity @p[scores={tranquil=1..}] run team join pacified @a[scores={tranquil=1..}]
 execute if entity @p[scores={tranquil=1..}] run scoreboard players reset @a[scores={tranquil=1..}] tranquil
