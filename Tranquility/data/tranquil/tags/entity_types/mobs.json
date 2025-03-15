@@ -4,6 +4,8 @@
     {"required": false, "id": "minecraft:allay"},
     {"required": false, "id": "minecraft:bee"},
     {"required": false, "id": "minecraft:blaze"},
+    {"required": false, "id": "minecraft:bogged"},
+    {"required": false, "id": "minecraft:breeze"},
     {"required": false, "id": "minecraft:cave_spider"},
     {"required": false, "id": "minecraft:creaking"},
     {"required": false, "id": "minecraft:creeper"},
